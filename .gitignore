@@ -1,0 +1,17 @@
+# Common
+.DS_Store
+Thumbs.db
+*.log
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+.project
+.classpath
+.settings/
+.factorypath
+
+# Docker
+.dockerignore
