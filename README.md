@@ -4,6 +4,13 @@ A hands-on demonstration of how Spring Boot APIs behave under stress and how Res
 
 ![Reliability Lab Demo](./doc/bhproject.png)
 
+## Related Project
+
+- **Reliability Lab Dashboard (Spring Boot + JSP)**  
+  https://github.com/jroneil/Reliability_Lab_Dashboard  
+  A controlled lab environment that visualizes failure behavior, latency, and circuit breaker outcomes using clear metrics.
+
+
 ## What this Lab Demonstrates
 1.  **Naive API (Baseline)**: Without protection, a slow dependency causes the entire request/thread to hang. The UI becomes unresponsive, and the failure bubbles up slowly.
 2.  **Hardened API**: Using timeouts, circuit breakers, and bulkheads to "fail fast".
