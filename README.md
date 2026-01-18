@@ -2,6 +2,8 @@
 
 A hands-on demonstration of how Spring Boot APIs behave under stress and how Resilience4j can protect the system and improve User Experience (UX).
 
+![Reliability Lab Demo](./doc/bhproject.png)
+
 ## What this Lab Demonstrates
 1.  **Naive API (Baseline)**: Without protection, a slow dependency causes the entire request/thread to hang. The UI becomes unresponsive, and the failure bubbles up slowly.
 2.  **Hardened API**: Using timeouts, circuit breakers, and bulkheads to "fail fast".
@@ -66,8 +68,6 @@ This is the most powerful demo:
 ### Step 5: Resetting the Lab
 *   Use the **Rotate icon** next to "Controls" to reset the backend timer and the Circuit Breaker manually at any time.
 
-## System Architecture & UI
-![Reliability Lab Demo](./doc/bhproject.png)
 
 ## Key Takeaways
 *   **Slow is worse than Down**: A dead service is easy to handle; a slow service can bring down your entire fleet by pinning threads.
