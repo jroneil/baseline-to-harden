@@ -75,3 +75,6 @@ This is the most powerful demo:
 *   **Controlled Failure**: Use HTTP 504 (timeout) vs 503 (short-circuited) to signal different system states to downstream consumers.
 *   **Self-Healing**: Observe how a Circuit Breaker automatically recovers when the dependency stabilizes.
 *   **Shared Responsibility**: Reliability is implemented in the backend, but its value is realized in the UI response.
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
